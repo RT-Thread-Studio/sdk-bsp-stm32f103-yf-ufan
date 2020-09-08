@@ -1,0 +1,108 @@
+board:
+  buy_url_cn: http://www.taobao.com/
+  buy_url_global: http://www.taobao.com/
+  debug_interface: SWD
+  debugger: ST-LINK
+  description_en: yf-ufun STM32F103 is a development board based on the ARM Cortex-M3 core launched by Ufan (Tianjin) Technology Co., Ltd., with a maximum clock speed of 72Mhz. The development board has rich on-board resources and can give full play to the chip performance of STM32F103.
+  description_zh: yf-ufun STM32F103 是优凡（天津）科技有限公司推出的一款基于 ARM Cortex-M3 内核的开发板，最高主频为 72Mhz，该开发板具有丰富的板载资源，可以充分发挥 STM32F103 的芯片性能。正面有 Micro SD 卡槽，usb 接口（供电、ISP 下载、USB 转串口），LED，触摸按键控制芯片 TTP224N-BSB，CH340 USB 转串口芯片。背面有电源开关，BOOT 配置拨码开关，蜂鸣器，RGB LED，RTC 超级电容，复位按键，触摸按键，SWD 调试接口。通过 miniPCIe 连接扩展板。
+  emulator_machine: ''
+  large_image: documents/images/board_large.png
+  name: stm32f103-yf-ufan
+  price_cn: 238.00 CNY
+  price_global: 35.00 USD
+  sale_contact_cn: http://www.st.com/stonline/contactus/contacts/index.php
+  sale_contact_global: http://www.st.com/stonline/contactus/contacts/index.php
+  small_image: documents/images/board_small.png
+  vendor: ''
+  version: Rev.A
+chip:
+  chip_name: STM32F103RC
+  clock_source: HSE
+  device_vendor: STMicroelectronics
+  family_name: STM32
+  rx_name: PA10
+  series_name: STM32F1
+  source_freq: '8000000'
+  sub_series_name: STM32F103
+  target_freq: '72000000'
+  tx_name: PA9
+  uart_name: UART1
+default_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .gitignore
+    - .project
+    - .sconsign.dblite
+    - .settings
+    - applications
+    - board
+    - build
+    - cconfig.h
+    - Debug
+    - figures
+    - Kconfig
+    - libraries
+    - makefile.targets
+    - project.ewd
+    - project.ewp
+    - project.eww
+    - project.uvopt
+    - project.uvoptx
+    - project.uvproj
+    - project.uvprojx
+    - README.md
+    - rt-thread
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig.pyc
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.ewp
+    - template.eww
+    - template.uvopt
+    - template.uvoptx
+    - template.uvproj
+    - template.uvprojx
+    source_path_offset: rtt_default_project_0
+    target_path_offset: ''
+  external_files:
+  - files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/Sconscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+    package_name: RT-Thread
+    package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_version: latest
+    source_path_offset: ''
+    target_path_offset: rt-thread
+  project_description: ''
+  project_name: ''
+  project_type: rt-thread|@full|@latest
+docs:
+- category: manual
+  file: documents/manuals/CD00171190.pdf
+  title: User's manual
+- category: sheet
+  file: documents/sheet/CD00191185.pdf
+  title: STM32F103xC Datasheet
+example_projects: []
+features:
+- MCU：STM32F103RCT6，主频 72MHz，256KB FLASH ，48KB RAM
+- LED：2个，LED3（R，PA3），LED1（RGB，PA1，PA2，PA0）
+- 按键：5个，K1 复位，上下左右4个触摸按键
+- 常用接口：USB 转串口、SD 卡接口，miniPCIe 扩展接口等
+- 调试接口，标准 SWD 调试下载接口
+pkg_type: Board_Support_Packages
+pkg_vendor: 'RealThread'
+pkg_version: 0.1.0
+yaml_version: 1
