@@ -13,7 +13,7 @@ board:
   sale_contact_cn: http://www.st.com/stonline/contactus/contacts/index.php
   sale_contact_global: http://www.st.com/stonline/contactus/contacts/index.php
   small_image: documents/images/board_small.png
-  vendor: ''
+  vendor: 'STMicroelectronics'
   version: Rev.A
 chip:
   chip_name: STM32F103RC
