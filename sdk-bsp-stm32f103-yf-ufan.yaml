@@ -106,4 +106,4 @@ features_zh:
 pkg_type: Board_Support_Packages
 pkg_vendor: 'RealThread'
 pkg_version: 0.1.0
-yaml_version: 1
+yaml_version: 2
