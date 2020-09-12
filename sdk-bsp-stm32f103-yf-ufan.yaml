@@ -92,6 +92,12 @@ docs:
   title: STM32F103xC Datasheet
 example_projects: []
 features:
+- "MCU: STM32F103RCT6, 72MHz, 256KB FLASH, 48KB RAM"
+- "LED: LED3(R, PA3), LED1(RGB, PA1, PA2, PA0)"
+- "Buttons: K1 Reset, 4 touch buttons up, down, left and right"
+- "Interface: USB-Serial、SD Card, miniPCIe"
+- "Debug: SWD"
+features_zh:
 - MCU：STM32F103RCT6，主频 72MHz，256KB FLASH ，48KB RAM
 - LED：2个，LED3（R，PA3），LED1（RGB，PA1，PA2，PA0）
 - 按键：5个，K1 复位，上下左右4个触摸按键
